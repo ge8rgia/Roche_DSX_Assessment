@@ -4,7 +4,7 @@
 from agent import ClinicalTrialDataAgent
 
 agent = ClinicalTrialDataAgent()
-print(f"Running in mode: {agent.mode}\n")
+print("Running with mock parse rules.\n")
 
 questions = [
     "Give me the subjects who had adverse events of moderate severity.",
@@ -14,7 +14,7 @@ questions = [
 
 for q in questions:
     r = agent.ask(q)
-    print(f"Q: {r['question']}")
-    print(f"   Parsed: {r['parsed']}")
-    print(f"   Unique subjects: {r['count']}")
-    print(f"   First 5 IDs: {r['subjects'][:5]}\n")
+    print(f"Question: {r['question']}")
+    print(f"Parsed: {r['parsed']}")
+    print(f"Unique subjects: {r['count']}")
+    print(f"First 3 subject IDs: {r['subjects'][:3]}\n")
