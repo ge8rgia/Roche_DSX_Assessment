@@ -1,5 +1,5 @@
 Package: descriptiveStats
-Title: Calculate Descriptive Statistics for Numeric Vectors.
+Title: Calculate Descriptive Statistics for Numeric Vectors
 Version: 0.0.0.9000
 Authors@R: 
     person("Georgia", "Goddard", , "glgoddard@hotmail.com", role = c("aut", "cre"))
