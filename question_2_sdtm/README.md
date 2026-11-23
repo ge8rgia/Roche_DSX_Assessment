@@ -27,8 +27,8 @@ All criteria are additionally documented within the 02_create_ds_domain.R script
 ### Package structure
 ```
 question_2_sdtm/
-├── data/sdtm_ct.csv         #
-└── 02_create_ds_domain.R    #
+├── data/sdtm_ct.csv         # Study controlled terminology
+└── 02_create_ds_domain.R    # R Script for creating the DS Domain
 ```
 
 ---
