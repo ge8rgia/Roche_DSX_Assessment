@@ -4,7 +4,7 @@ Create Tables, Listings, and Graphs (TLGs) for adverse events summary using the 
 
 ### Package structure
 ```
-descriptiveStats/
+question_4_tlg/
 ├── 01_create_ae_summary_table.R             # Summary Table using {gtsummary}
 ├── 02_create_visualizations.R               # Visualizations using {ggplot2)
 ├── 03_create_listings.R                     # Listing using {gtsummary}
