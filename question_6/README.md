@@ -8,10 +8,10 @@ A clinical safety reviewer wants to ask free-text questions about the AE dataset
 
 ### Package structure
 ```
-question_5/
+question_6/
 ├── data/adae.csv     # pharmaverseadam::adae data saved in .csv format
-├── agent.py          # pharmaverseadam::adae data saved in .csv format
-└── test_agent.py     # Python script using FastAPI
+├── agent.py          # Built agent script 
+└── test_agent.py     # Test questions to run against the agent.py script
 ```
 
 ---
